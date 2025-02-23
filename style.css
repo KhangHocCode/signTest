@@ -11,7 +11,7 @@ input {
   font-family: "Poppins", sans-serif;
 }
 a{
-  text-decoration: none;
+  color: #000000;
 }
 .container {
   position: relative;
