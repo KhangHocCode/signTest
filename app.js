@@ -16,7 +16,6 @@ const signInPassword = document.querySelector('#sign-in-password');
 toggleSignInPassword.addEventListener('click', function (e) {
   const type = signInPassword.getAttribute('type') === 'password' ? 'text' : 'password';
   signInPassword.setAttribute('type', type);
-  // toggle the eye icon
   this.classList.toggle('ri-eye-off-line');
 });
 
