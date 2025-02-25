@@ -16,16 +16,20 @@
             <h2 class="title">Sign In</h2>
             <div class="input-field">
               <i class="ri-user-line"></i>
-              <input type="text" placeholder="Username" />
+              <input type="email" placeholder="Email" id="sign-in-email" />
             </div>
             <div class="input-field">
               <i class="ri-lock-fill"></i>
               <input type="password" placeholder="Password" id="sign-in-password" />
               <i class="ri-eye-line" id="toggleSignInPassword" style="cursor: pointer;"></i>
             </div>
-            <input type="submit" value="Login" class="btn solid" />
-            <a href="#" class="social-link">Forgot your password?</a>
+            <div class="remember-me">
+              <input type="checkbox" id="remember-me-checkbox" />
+              <label for="remember-me-checkbox">Remember me for 30 days</label>
+            </div>
+            <input type="submit" value="Login" class="btn solid" id="btn-signin"/>            
             <a href="#" class="social-link">Help with logging in</a>
+            <a href="#" class="social-link">Forgot your password?</a>
             <p class="social-text">Or Sign In With</p>
             <div class="social-media">
               <a href="#" class="social-icon">
@@ -46,18 +50,18 @@
             <h2 class="title">Sign Up</h2>
             <div class="input-field">
               <i class="ri-user-line"></i>
-              <input type="text" placeholder="Username" />
+              <input type="text" placeholder="Username" id="sign-up-username" />
             </div>
             <div class="input-field">
               <i class="ri-mail-line"></i>
-              <input type="email" placeholder="Email" />
+              <input type="email" placeholder="Email" id="sign-up-email" />
             </div>
             <div class="input-field">
               <i class="ri-lock-fill"></i>
               <input type="password" placeholder="Password" id="sign-up-password" />
               <i class="ri-eye-line" id="toggleSignUpPassword" style="cursor: pointer;"></i>
             </div>
-            <input type="submit" class="btn" value="Sign up" />
+            <input type="submit" class="btn" value="Sign up" id="btn-signup"/>
             <p class="social-text">Or Sign Up With</p>
             <div class="social-media">
               <a href="#" class="social-icon">

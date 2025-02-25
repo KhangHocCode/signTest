@@ -10,6 +10,9 @@ sign_in_btn.addEventListener("click", () => {
   container.classList.remove("sign-up-mode");
 });
 
+
+
+
 const toggleSignInPassword = document.querySelector('#toggleSignInPassword');
 const signInPassword = document.querySelector('#sign-in-password');
 
